@@ -1,0 +1,18 @@
+# simple-sync configuration
+# Copy this file to ~/.config/simple-sync/config and edit as needed.
+
+# Root directory containing your local repositories
+SOURCE_BASE="$HOME/Github"
+
+# Sync destination — local volume or SSH target (rsync handles both)
+TARGET_BASE="/Volumes/username/github"
+# TARGET_BASE="user@hostname:/remote/path/github"
+
+# Optional: path to the repo list (default: repositories.txt next to sync.sh)
+# REPOS_FILE="$HOME/.config/simple-sync/repositories.txt"
+
+# Optional: seconds between periodic full syncs (handles deletions, default: 300)
+# FULL_SYNC_INTERVAL=300
+
+# Optional: debounce delay in seconds (default: 1)
+# DEBOUNCE_SECS=1

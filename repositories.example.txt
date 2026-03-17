@@ -1,0 +1,8 @@
+# List of repositories to make available in the picker.
+# One repo name per line, relative to SOURCE_BASE.
+# Lines starting with # are ignored.
+
+repo-1
+repo-2
+repo-with-different-parent::/data/path
+# hidden-repo
